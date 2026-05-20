@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>All Articles - Folio Atelier</title>
+<meta name="description" content="All articles from Folio Atelier. A curated lens on art, ateliers, and modern collectives.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ===== Folio Atelier - Editorial Catalogue Theme ===== */
+:root{
+  --paper:#f6f1ea;
+  --bone:#ece5da;
+  --bone-2:#e2d9cb;
+  --ink:#1a1612;
+  --ink-soft:#2a241f;
+  --muted:#6b5f54;
+  --rule:#cbbfae;
+  --walnut:#7b4a32;
+  --walnut-deep:#5e3924;
+  --ochre:#a87a3c;
+  --serif:'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  --sans:'Inter', system-ui, -apple-system, sans-serif;
+  --mono:'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --rule-w:1px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--walnut);color:var(--paper)}
+
+/* utility ── */
+.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+.eyebrow{font-family:var(--mono);font-size:10.5px;font-weight:400;letter-spacing:.28em;text-transform:uppercase;color:var(--walnut)}
+.eyebrow.ink{color:var(--ink)}
+.eyebrow.muted{color:var(--muted)}
+.serif{font-family:var(--serif)}
+.rule{height:var(--rule-w);background:var(--rule);width:100%}
+.rule-sepia{height:var(--rule-w);background:var(--walnut);width:48px}
+.rule-thin{border-top:var(--rule-w) solid var(--rule)}
+
+/* ===== Masthead (thin, not sticky-blur) ===== */
+.masthead{border-bottom:var(--rule-w) solid var(--ink);background:var(--paper);position:sticky;top:0;z-index:50}
+.masthead-bar{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:32px;padding:14px 40px;max-width:1240px;margin:0 auto}
+.mh-mark{display:flex;align-items:baseline;gap:10px}
+.mh-mark .ampersand{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--walnut);line-height:1}
+.mh-mark .word{font-family:var(--serif);font-weight:500;font-size:19px;letter-spacing:.02em;color:var(--ink)}
+.mh-nav{display:flex;justify-content:center;gap:32px;flex-wrap:wrap}
+.mh-nav a{font-family:var(--mono);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);position:relative;padding:4px 0;transition:color .3s ease}
+.mh-nav a:hover{color:var(--walnut)}
+.mh-nav a:hover::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--walnut)}
+.mh-meta{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.mh-meta span+span{margin-left:14px;padding-left:14px;border-left:1px solid var(--rule)}
+
+/* ===== Hero / Cover ===== */
+.cover{padding:64px 0 80px;border-bottom:var(--rule-w) solid var(--rule);position:relative}
+.cover-grid{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+.cover-left{padding-top:8px}
+.issue-tag{display:inline-flex;align-items:center;gap:10px;padding:6px 10px;border:1px solid var(--ink);font-family:var(--mono);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink)}
+.issue-tag .dot{width:6px;height:6px;background:var(--walnut);border-radius:50%}
+.cover-headline{font-family:var(--serif);font-weight:300;font-size:clamp(46px,6.4vw,92px);line-height:1.02;letter-spacing:-.01em;margin:28px 0 24px;color:var(--ink)}
+.cover-headline .it{font-style:italic;color:var(--walnut-deep)}
+.cover-headline .br{display:block}
+.cover-stand{font-family:var(--serif);font-weight:400;font-size:20px;line-height:1.5;color:var(--ink-soft);max-width:38ch;margin-bottom:32px}
+.cover-meta{display:flex;gap:32px;padding-top:20px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.cover-meta b{color:var(--ink);font-weight:500}
+
+.cover-right{position:relative}
+.cover-frame{position:relative;border:1px solid var(--rule);padding:14px;background:var(--bone)}
+.cover-frame .frame-inner{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--bone-2)}
+.cover-frame img{width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(.98)}
+.cover-caption{position:absolute;right:-1px;bottom:-1px;background:var(--paper);border:1px solid var(--ink);padding:14px 18px;max-width:220px}
+.cover-caption .cap-eye{font-family:var(--mono);font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--walnut);margin-bottom:6px}
+.cover-caption .cap-body{font-family:var(--serif);font-style:italic;font-size:14.5px;line-height:1.4;color:var(--ink)}
+.cover-folio{position:absolute;left:-1px;top:-1px;background:var(--paper);border:1px solid var(--ink);padding:8px 12px;font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase}
+
+/* ===== Section heads ===== */
+.sec{padding:88px 0;border-bottom:var(--rule-w) solid var(--rule)}
+.sec-head{display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:32px;margin-bottom:48px}
+.sec-head .h-num{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--walnut)}
+.sec-head .h-title{font-family:var(--serif);font-weight:400;font-size:clamp(34px,4.2vw,52px);line-height:1.05;letter-spacing:-.01em;color:var(--ink)}
+.sec-head .h-title .it{font-style:italic;color:var(--walnut-deep)}
+.sec-head .h-meta{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);text-align:right;padding-bottom:6px}
+
+/* ===== In This Issue (asymmetric 1 + 2x2) ===== */
+.issue-grid{display:grid;grid-template-columns:7fr 5fr;gap:40px}
+.issue-feature{border-top:1px solid var(--ink);padding-top:22px}
+.issue-feature .ft-img{aspect-ratio:5/4;overflow:hidden;background:var(--bone-2);margin-bottom:22px;position:relative}
+.issue-feature .ft-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.issue-feature:hover .ft-img img{transform:scale(1.035)}
+.issue-feature .ft-eye{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.issue-feature .ft-title{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3.2vw,40px);line-height:1.1;color:var(--ink);margin-bottom:14px;letter-spacing:-.005em}
+.issue-feature .ft-title .it{font-style:italic;color:var(--walnut-deep)}
+.issue-feature .ft-dek{font-family:var(--serif);font-size:18px;line-height:1.5;color:var(--ink-soft);max-width:46ch}
+.issue-feature .ft-by{margin-top:18px;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+
+.issue-side{display:grid;grid-template-rows:1fr 1fr;gap:32px}
+.issue-card{display:grid;grid-template-columns:1fr 1.4fr;gap:20px;border-top:1px solid var(--rule);padding-top:18px;cursor:pointer}
+.issue-card .sc-img{aspect-ratio:1/1;overflow:hidden;background:var(--bone-2)}
+.issue-card .sc-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.issue-card:hover .sc-img img{transform:scale(1.04)}
+.issue-card .sc-eye{margin-bottom:8px}
+.issue-card .sc-title{font-family:var(--serif);font-weight:400;font-size:22px;line-height:1.2;color:var(--ink);margin-bottom:10px}
+.issue-card .sc-meta{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+
+/* ===== Studio Visits (horizontal cards w/ rotated polaroid tag) ===== */
+.visits{display:flex;flex-direction:column;gap:48px}
+.visit{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:center;position:relative;padding:20px 0;border-top:1px solid var(--rule)}
+.visit:nth-child(even){grid-template-columns:7fr 5fr;direction:rtl}
+.visit:nth-child(even) > *{direction:ltr}
+.visit-img{aspect-ratio:5/4;overflow:hidden;background:var(--bone-2);position:relative}
+.visit-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.visit:hover .visit-img img{transform:scale(1.03)}
+.polaroid{position:absolute;top:-14px;right:-14px;background:var(--paper);border:1px solid var(--ink);padding:10px 14px 12px;transform:rotate(4deg);box-shadow:0 8px 22px -14px rgba(26,22,18,.4);max-width:170px;z-index:2}
+.polaroid .p-eye{font-family:var(--mono);font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--walnut);margin-bottom:4px}
+.polaroid .p-body{font-family:var(--serif);font-style:italic;font-size:13px;line-height:1.35;color:var(--ink)}
+.visit:nth-child(even) .polaroid{right:auto;left:-14px;transform:rotate(-3.5deg)}
+.visit-body .v-eye{margin-bottom:14px}
+.visit-body .v-title{font-family:var(--serif);font-weight:400;font-size:clamp(26px,2.8vw,36px);line-height:1.12;color:var(--ink);margin-bottom:16px;letter-spacing:-.005em}
+.visit-body .v-title .it{font-style:italic;color:var(--walnut-deep)}
+.visit-body .v-text{font-family:var(--serif);font-size:18px;line-height:1.55;color:var(--ink-soft);margin-bottom:18px;max-width:52ch}
+.visit-body .v-foot{display:flex;gap:24px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.visit-body .v-foot b{color:var(--ink);font-weight:500}
+
+/* ===== Archive (6-cell catalogue grid) ===== */
+.archive-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.arch-cell{background:var(--paper);padding:28px 24px 32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;transition:background .35s ease}
+.arch-cell:hover{background:var(--bone)}
+.arch-num{font-family:var(--mono);font-size:11px;letter-spacing:.24em;color:var(--walnut)}
+.arch-mid .a-eye{margin-bottom:10px;font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.arch-mid .a-title{font-family:var(--serif);font-weight:400;font-size:24px;line-height:1.18;color:var(--ink);letter-spacing:-.005em}
+.arch-mid .a-title .it{font-style:italic;color:var(--walnut-deep)}
+.arch-foot{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+
+/* ===== Acquisition Notes (2-col editorial) ===== */
+.acq{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.acq-col{border-top:1px solid var(--ink);padding-top:22px}
+.acq-col .ac-eye{margin-bottom:14px}
+.acq-col .ac-title{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.15;color:var(--ink);margin-bottom:16px;letter-spacing:-.005em}
+.acq-col .ac-title .it{font-style:italic;color:var(--walnut-deep)}
+.acq-col .ac-body{font-family:var(--serif);font-size:17.5px;line-height:1.6;color:var(--ink-soft);columns:1;margin-bottom:18px}
+.acq-col .ac-body p+p{margin-top:14px;text-indent:1.6em}
+.acq-col .ac-by{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);padding-top:14px;border-top:1px solid var(--rule)}
+
+/* ===== Article feed (Index list) ===== */
+.feed{display:flex;flex-direction:column;gap:0}
+.feed .empty-state{padding:40px 0;text-align:center;font-family:var(--serif);font-style:italic;font-size:18px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.feed-row{display:grid;grid-template-columns:90px 1.4fr 2fr auto;gap:32px;align-items:center;padding:22px 0;border-top:1px solid var(--rule);transition:background .3s ease}
+.feed-row:last-child{border-bottom:1px solid var(--rule)}
+.feed-row:hover{background:var(--bone)}
+.feed-num{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:var(--walnut)}
+.feed-thumb{width:120px;height:80px;overflow:hidden;background:var(--bone-2);flex-shrink:0}
+.feed-thumb img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.feed-row:hover .feed-thumb img{transform:scale(1.06)}
+.feed-mid .fm-eye{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--walnut);margin-bottom:6px}
+.feed-mid .fm-title{font-family:var(--serif);font-weight:400;font-size:22px;line-height:1.2;color:var(--ink);letter-spacing:-.005em}
+.feed-mid .fm-title .it{font-style:italic;color:var(--walnut-deep)}
+.feed-dek{font-family:var(--serif);font-size:15.5px;line-height:1.5;color:var(--muted)}
+.feed-meta{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);text-align:right;white-space:nowrap}
+
+/* ===== Author / Contributors ===== */
+.author{display:grid;grid-template-columns:auto 1fr auto;gap:40px;align-items:center;padding:36px;background:var(--bone);border:1px solid var(--rule)}
+.author-portrait{width:130px;height:130px;border-radius:50%;overflow:hidden;background:var(--bone-2);border:1px solid var(--rule)}
+.author-portrait img{width:100%;height:100%;object-fit:cover}
+.author-body .a-eye{margin-bottom:8px}
+.author-body .a-name{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.1;color:var(--ink);margin-bottom:10px}
+.author-body .a-name .it{font-style:italic;color:var(--walnut-deep)}
+.author-body .a-bio{font-family:var(--serif);font-size:16.5px;line-height:1.55;color:var(--ink-soft);max-width:60ch}
+.author-sig{font-family:var(--serif);font-style:italic;font-size:28px;color:var(--walnut-deep);transform:rotate(-4deg);padding-right:10px}
+
+/* ===== Editor's Letter (FAQ) ===== */
+.letter{display:grid;grid-template-columns:5fr 7fr;gap:56px;align-items:start}
+.letter-aside{position:sticky;top:80px}
+.letter-aside .l-eye{margin-bottom:14px}
+.letter-aside .l-title{font-family:var(--serif);font-weight:400;font-size:40px;line-height:1.08;color:var(--ink);margin-bottom:18px;letter-spacing:-.005em}
+.letter-aside .l-title .it{font-style:italic;color:var(--walnut-deep)}
+.letter-aside .l-intro{font-family:var(--serif);font-size:17px;line-height:1.55;color:var(--ink-soft)}
+.qa-list{display:flex;flex-direction:column}
+.qa{border-top:1px solid var(--rule);padding:22px 0;cursor:pointer}
+.qa:last-child{border-bottom:1px solid var(--rule)}
+.qa-q{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:start}
+.qa-q .q-mark{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--walnut);line-height:1;padding-top:2px}
+.qa-q .q-text{font-family:var(--serif);font-weight:400;font-size:22px;line-height:1.28;color:var(--ink);letter-spacing:-.005em}
+.qa-q .q-plus{font-family:var(--mono);font-size:18px;color:var(--walnut);transition:transform .35s ease;line-height:1;padding-top:6px}
+.qa.open .q-plus{transform:rotate(45deg)}
+.qa-a{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.2,.7,.2,1)}
+.qa-a-inner{padding:16px 0 4px 40px;font-family:var(--serif);font-size:17px;line-height:1.6;color:var(--ink-soft)}
+
+/* ===== Newsletter ===== */
+.sub{max-width:760px;margin:0 auto;padding:48px;border:1px solid var(--rule);background:var(--bone);position:relative}
+.sub::before{content:"";position:absolute;left:48px;right:48px;top:18px;height:1px;background:var(--walnut)}
+.sub .s-eye{margin-bottom:14px;text-align:center}
+.sub .s-title{font-family:var(--serif);font-weight:400;font-size:36px;line-height:1.12;color:var(--ink);text-align:center;margin-bottom:14px;letter-spacing:-.005em}
+.sub .s-title .it{font-style:italic;color:var(--walnut-deep)}
+.sub .s-dek{font-family:var(--serif);font-size:17px;line-height:1.5;color:var(--muted);text-align:center;max-width:48ch;margin:0 auto 28px}
+.sub form{display:grid;grid-template-columns:1fr auto;gap:0;max-width:480px;margin:0 auto;border:1px solid var(--ink);background:var(--paper)}
+.sub input{border:0;background:transparent;padding:14px 18px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--ink);outline:none}
+.sub input::placeholder{color:var(--muted);letter-spacing:.18em;text-transform:uppercase;font-size:10.5px}
+.sub button{border:0;border-left:1px solid var(--ink);background:var(--ink);color:var(--paper);padding:14px 22px;font-family:var(--mono);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;cursor:pointer;transition:background .25s ease}
+.sub button:hover{background:var(--walnut-deep)}
+.sub .s-fine{margin-top:16px;text-align:center;font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+/* ===== Colophon (footer) ===== */
+.colophon{background:var(--ink);color:var(--bone);padding:80px 0 36px;border-top:6px double var(--walnut)}
+.colophon-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px}
+.cph-brand .cph-mark{display:flex;align-items:baseline;gap:10px;margin-bottom:18px}
+.cph-brand .cph-mark .ampersand{font-family:var(--serif);font-style:italic;font-size:24px;color:var(--ochre)}
+.cph-brand .cph-mark .word{font-family:var(--serif);font-weight:400;font-size:22px;letter-spacing:.02em}
+.cph-brand p{font-family:var(--serif);font-size:15.5px;line-height:1.55;color:#bdb09c;max-width:36ch}
+.cph-col h4{font-family:var(--mono);font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre);margin-bottom:18px;font-weight:400}
+.cph-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.cph-col a{font-family:var(--serif);font-size:16px;color:var(--bone);transition:color .25s ease}
+.cph-col a:hover{color:var(--ochre)}
+.cph-fine{display:flex;justify-content:space-between;align-items:center;padding-top:28px;border-top:1px solid #3a322a;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#7a6e5e;flex-wrap:wrap;gap:18px}
+.cph-fine b{color:var(--bone);font-weight:500}
+
+/* ===== Reveal motion ===== */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ===== Responsive ===== */
+@media (max-width: 980px){
+  .wrap{padding:0 24px}
+  .masthead-bar{grid-template-columns:1fr auto;padding:12px 24px}
+  .mh-nav{display:none}
+  .cover{padding:40px 0 56px}
+  .cover-grid{grid-template-columns:1fr;gap:40px}
+  .cover-headline{font-size:clamp(40px,9vw,64px)}
+  .sec{padding:64px 0}
+  .sec-head{grid-template-columns:1fr;gap:12px}
+  .sec-head .h-meta{text-align:left}
+  .issue-grid{grid-template-columns:1fr;gap:40px}
+  .issue-side{grid-template-rows:auto;gap:28px}
+  .visit, .visit:nth-child(even){grid-template-columns:1fr;direction:ltr;gap:24px}
+  .visit:nth-child(even) > *{direction:ltr}
+  .polaroid, .visit:nth-child(even) .polaroid{top:-10px;right:-10px;left:auto;transform:rotate(3deg);max-width:150px}
+  .archive-grid{grid-template-columns:repeat(2,1fr)}
+  .acq{grid-template-columns:1fr;gap:40px}
+  .feed-row{grid-template-columns:1fr;gap:14px;padding:24px 0}
+  .feed-num{display:none}
+  .feed-thumb{width:100%;height:200px}
+  .feed-meta{text-align:left}
+  .author{grid-template-columns:1fr;text-align:center;padding:28px;gap:20px}
+  .author-portrait{margin:0 auto}
+  .author-sig{text-align:center;padding:0}
+  .letter{grid-template-columns:1fr;gap:32px}
+  .letter-aside{position:static}
+  .sub{padding:32px 24px}
+  .colophon-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .cph-brand{grid-column:1 / -1}
+  .cph-fine{flex-direction:column;text-align:center;gap:10px}
+}
+@media (max-width: 480px){
+  .wrap{padding:0 18px}
+  .masthead-bar{padding:10px 18px;gap:14px}
+  .mh-meta span+span{margin-left:8px;padding-left:8px}
+  .cover-headline{font-size:42px}
+  .cover-stand{font-size:17px}
+  .cover-meta{flex-direction:column;gap:10px}
+  .issue-feature .ft-title{font-size:26px}
+  .archive-grid{grid-template-columns:1fr}
+  .qa-a-inner{padding-left:20px}
+  .sub .s-title{font-size:28px}
+  .colophon-grid{grid-template-columns:1fr;gap:28px}
+}
+/* page */
+.aa{max-width:1040px;margin:0 auto;padding:48px 24px 96px;font-family:inherit}
+.aa-kicker{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#7b4a32;margin-bottom:12px}
+.aa-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(28px,5vw,40px);font-weight:800;line-height:1.15;color:#1a1612;margin:0 0 10px}
+.aa-count{display:inline-block;background:#7b4a32;color:#f6f1ea;font-size:11px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;padding:3px 10px;border-radius:999px;margin-bottom:22px}
+.aa-controls{display:flex;flex-direction:column;gap:14px;margin:18px 0 26px}
+.aa-search{width:100%;background:#ece5da;border:1px solid #d8cdbb;border-radius:8px;padding:12px 14px;font-size:14px;color:#1a1612;font-family:inherit;outline:none}
+.aa-search:focus{border-color:#7b4a32}
+.aa-chips{display:flex;flex-wrap:wrap;gap:8px}
+.aa-chip{background:#ece5da;border:1px solid #d8cdbb;color:#6c5d50;font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:7px 14px;border-radius:999px;cursor:pointer;font-family:inherit;transition:all .15s}
+.aa-chip:hover{color:#1a1612;border-color:#7b4a32}
+.aa-chip.active{background:#7b4a32;color:#f6f1ea;border-color:#7b4a32}
+.aa-meta{font-size:12px;color:#6c5d50;margin:6px 0 18px;letter-spacing:.3px}
+.aa-list{display:flex;flex-direction:column;gap:14px}
+.aa-card{display:grid;grid-template-columns:160px 1fr;gap:18px;background:#ece5da;border:1px solid #d8cdbb;border-radius:10px;padding:14px;text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
+.aa-card:hover{border-color:#7b4a32;transform:translateY(-1px)}
+.aa-thumb{width:100%;height:110px;border-radius:7px;object-fit:cover;background:#ffffff;display:block}
+.aa-body{display:flex;flex-direction:column;justify-content:center;min-width:0}
+.aa-cat{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:#7b4a32;margin-bottom:6px}
+.aa-h{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:700;color:#1a1612;margin:0 0 6px;line-height:1.3}
+.aa-desc{font-size:13px;line-height:1.55;color:#6c5d50;margin:0 0 8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.aa-date{font-size:11px;color:#6c5d50;letter-spacing:.4px}
+.aa-empty{text-align:center;padding:60px 20px;color:#6c5d50;font-size:14px;background:#ece5da;border:1px dashed #d8cdbb;border-radius:10px}
+.aa-pager{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:32px}
+.aa-pager button{background:#ece5da;border:1px solid #d8cdbb;color:#1a1612;font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:8px 16px;border-radius:999px;cursor:pointer;font-family:inherit}
+.aa-pager button:disabled{opacity:.4;cursor:not-allowed}
+.aa-pager .aa-page-num{font-size:12px;color:#6c5d50;font-weight:700}
+@media(max-width:560px){.aa-card{grid-template-columns:96px 1fr;gap:12px;padding:10px}.aa-thumb{height:88px}.aa-h{font-size:15px}.aa-desc{-webkit-line-clamp:2}}
+</style>
+</head>
+<body data-page-depth="0">
+<header class="masthead" role="banner">
+  <div class="masthead-bar">
+    <a href="./" class="mh-mark" aria-label="Folio Atelier home">
+      <span class="ampersand">&</span>
+      <span class="word">Folio Atelier</span>
+    </a>
+    <nav class="mh-nav" aria-label="Primary">
+      <a href="./#issue">In This Issue</a>
+      <a href="./#visits">Studio Visits</a>
+      <a href="./#archive">Archive</a>
+      <a href="./#notes">Acquisition Notes</a>
+      <a href="./#index">Index</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="mh-meta" aria-label="Issue metadata">
+      <span>No. 014</span>
+      <span>Spring 2026</span>
+    </div>
+  </div>
+</header>
+<main class="aa">
+  <div class="aa-kicker">All Arts & Collectives writing from Folio Atelier</div>
+  <h1 class="aa-title">All Articles</h1>
+  <div class="aa-count" id="aa-count">0 published</div>
+  <div class="aa-controls">
+    <input id="aa-search" class="aa-search" type="search" placeholder="Search by title..." aria-label="Search articles">
+    <div class="aa-chips" id="aa-chips">
+      <button class="aa-chip active" type="button" data-cat="__all__">All</button>
+        <button class="aa-chip" type="button" data-cat="Artists">Artists</button>
+        <button class="aa-chip" type="button" data-cat="Galleries">Galleries</button>
+        <button class="aa-chip" type="button" data-cat="Collectives">Collectives</button>
+        <button class="aa-chip" type="button" data-cat="Exhibitions">Exhibitions</button>
+        <button class="aa-chip" type="button" data-cat="Prints & Editions">Prints & Editions</button>
+        <button class="aa-chip" type="button" data-cat="Studio Practice">Studio Practice</button>
+        <button class="aa-chip" type="button" data-cat="Collecting">Collecting</button>
+    </div>
+  </div>
+  <div class="aa-meta" id="aa-meta">Loading articles...</div>
+  <div class="aa-list" id="all-list"></div>
+  <div class="aa-pager" id="aa-pager" style="display:none">
+    <button id="aa-prev" type="button">Prev</button>
+    <span class="aa-page-num" id="aa-page-num">Page 1</span>
+    <button id="aa-next" type="button">Next</button>
+  </div>
+</main>
+<script>
+(function(){
+  if(!document.getElementById('all-list'))return;
+  var PER_PAGE=24;
+  var FALLBACK_IMG='https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80';
+  var SITE_CAT="Arts & Collectives";
+  var listEl=document.getElementById('all-list');
+  var metaEl=document.getElementById('aa-meta');
+  var countEl=document.getElementById('aa-count');
+  var pagerEl=document.getElementById('aa-pager');
+  var prevBtn=document.getElementById('aa-prev');
+  var nextBtn=document.getElementById('aa-next');
+  var pageNumEl=document.getElementById('aa-page-num');
+  var searchEl=document.getElementById('aa-search');
+  var chipsEl=document.getElementById('aa-chips');
+  var all=[],activeCat='__all__',query='',page=1;
+  function escapeHtml(t){return String(t==null?'':t).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];});}
+  function filtered(){
+    var q=query.trim().toLowerCase();
+    return all.filter(function(p){
+      if(activeCat!=='__all__'&&(p.category||SITE_CAT)!==activeCat)return false;
+      if(q&&String(p.title||'').toLowerCase().indexOf(q)===-1)return false;
+      return true;
+    });
+  }
+  function render(){
+    var arr=filtered();
+    var total=arr.length;
+    var pages=Math.max(1,Math.ceil(total/PER_PAGE));
+    if(page>pages)page=pages;
+    var start=(page-1)*PER_PAGE;
+    var slice=arr.slice(start,start+PER_PAGE);
+    if(!total){
+      listEl.innerHTML='<div class="aa-empty">No articles match your filters.</div>';
+      pagerEl.style.display='none';
+    } else {
+      listEl.innerHTML=slice.map(function(p){
+        var img=p.image||FALLBACK_IMG;
+        var cat=escapeHtml(p.category||SITE_CAT);
+        var title=escapeHtml(p.title||'Untitled');
+        var desc=escapeHtml(p.meta_description||'');
+        var date=escapeHtml(p.date_iso||'');
+        var slug=encodeURIComponent(p.slug||'').replace(/%2F/g,'/');
+        return '<a class="aa-card" href="./'+slug+'/">'+
+          '<img class="aa-thumb" loading="lazy" alt="" src="'+escapeHtml(img)+'" onerror="this.onerror=null;this.src=\''+FALLBACK_IMG+'\'">'+
+          '<div class="aa-body"><span class="aa-cat">'+cat+'</span>'+
+          '<h3 class="aa-h">'+title+'</h3>'+
+          '<p class="aa-desc">'+desc+'</p>'+
+          '<span class="aa-date">'+date+'</span></div></a>';
+      }).join('');
+      pagerEl.style.display=pages>1?'flex':'none';
+      pageNumEl.textContent='Page '+page+' of '+pages;
+      prevBtn.disabled=page<=1;
+      nextBtn.disabled=page>=pages;
+    }
+    metaEl.textContent='Showing '+slice.length+' of '+all.length;
+  }
+  function setCat(c){activeCat=c;page=1;Array.prototype.forEach.call(chipsEl.querySelectorAll('.aa-chip'),function(b){b.classList.toggle('active',b.getAttribute('data-cat')===c);});render();}
+  chipsEl.addEventListener('click',function(e){var b=e.target.closest('.aa-chip');if(!b)return;setCat(b.getAttribute('data-cat'));});
+  var deb;
+  searchEl.addEventListener('input',function(){clearTimeout(deb);deb=setTimeout(function(){query=searchEl.value;page=1;render();},200);});
+  prevBtn.addEventListener('click',function(){if(page>1){page--;render();window.scrollTo({top:0,behavior:'smooth'});}});
+  nextBtn.addEventListener('click',function(){page++;render();window.scrollTo({top:0,behavior:'smooth'});});
+  fetch('./articles.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(data){
+    all=Array.isArray(data)?data.slice():[];
+    all.sort(function(a,b){return String(b.date_iso||'').localeCompare(String(a.date_iso||''));});
+    countEl.textContent=all.length+' published';
+    if(!all.length){
+      listEl.innerHTML='<div class="aa-empty">No articles published yet.</div>';
+      metaEl.textContent='Showing 0 of 0';
+      return;
+    }
+    render();
+  }).catch(function(){
+    countEl.textContent='0 published';
+    listEl.innerHTML='<div class="aa-empty">No articles published yet.</div>';
+    metaEl.textContent='Showing 0 of 0';
+  });
+})();
+</script>
+<footer class="colophon" role="contentinfo">
+  <div class="wrap">
+    <div class="colophon-grid">
+      <div class="cph-brand">
+        <a href="./" class="cph-mark">
+          <span class="ampersand">&</span>
+          <span class="word">Folio Atelier</span>
+        </a>
+        <p>A slow editorial index of artists, ateliers, and small collectives. Edited from Lisbon and Brooklyn. Printed in Antwerp. Read, ideally, on paper.</p>
+      </div>
+      <div class="cph-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="./#issue">In This Issue</a></li>
+          <li><a href="./#visits">Studio Visits</a></li>
+          <li><a href="./#archive">Archive</a></li>
+          <li><a href="./#notes">Acquisition Notes</a></li>
+          <li><a href="./#index">The Index</a></li>
+        </ul>
+      </div>
+      <div class="cph-col">
+        <h4>Publication</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="./#index">Current Issue</a></li>
+          <li><a href="./">Subscribe</a></li>
+          <li><a href="about.html">Masthead</a></li>
+        </ul>
+      </div>
+      <div class="cph-col">
+        <h4>Editorial</h4>
+        <ul>
+          <li><a href="./">Pitch a Visit</a></li>
+          <li><a href="./">Letters</a></li>
+          <li><a href="./">Reading Room</a></li>
+          <li><a href="./">Errata</a></li>
+        </ul>
+      </div>
+      <div class="cph-col">
+        <h4>Notices</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cph-fine">
+      <span>Colophon / Set in Cormorant Garamond &amp; IBM Plex Mono. Issue No. 014, Spring 2026.</span>
+      <span><b>Folio Atelier</b> / Edited by Imogen Salinger / All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
