@@ -16,7 +16,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Galleries"
   },
   {
     "title": "How the Whitney Biennial 2022 Forced a Real Conversation About Collective Power in American Art",
@@ -35,7 +36,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Galleries"
   },
   {
     "title": "How the Sudden Pivot to Virtual Art Fairs in 2020 Reshaped the Collectives Scene Forever",
@@ -54,7 +56,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Galleries"
   },
   {
     "title": "Finance Tips That Actually Work (And a Few That People Get Badly Wrong)",
@@ -73,7 +76,8 @@
     "posted_iso": "2026-05-29",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Galleries"
   },
   {
     "title": "How the NEA's 2020 CARES Act Funding Became a Lifeline and a Lightning Rod for Arts Collectives",
@@ -92,6 +96,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Studio Practice"
   }
 ]
