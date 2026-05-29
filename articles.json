@@ -55,5 +55,43 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Finance Tips That Actually Work (And a Few That People Get Badly Wrong)",
+    "slug": "finance-tips-that-actually-work",
+    "meta_description": "Real finance tips from someone who's made the mistakes. Learn what budgeting advice actually holds up, and what's quietly leading you astray.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Jordan Cole",
+    "image": "https://images.pexels.com/photos/6693656/pexels-photo-6693656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "consumerfinance.gov",
+      "spglobal.com",
+      "financialcapability.gov.au"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the NEA's 2020 CARES Act Funding Became a Lifeline and a Lightning Rod for Arts Collectives",
+    "slug": "nea-cares-act-2020-arts-collectives",
+    "meta_description": "The NEA's $75M CARES Act distribution in 2020 reshaped arts collectives overnight. Here's what it meant, who it helped, and what it left out.",
+    "date": "March 17, 2020",
+    "date_iso": "2020-03-17",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/32323453/pexels-photo-32323453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "arts.gov",
+      "americansforthearts.org",
+      "urban.org"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
