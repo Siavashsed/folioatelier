@@ -1,0 +1,62 @@
+[
+  {
+    "title": "NFTs Hit the Art World in 2021 and Nothing Has Been Quite the Same Since",
+    "slug": "nfts-art-world-2021-retrospective",
+    "meta_description": "A 2021 retrospective on how NFTs reshaped arts collectives, artist income, and the gallery system. What actually changed, and what didn't.",
+    "date": "June 07, 2021",
+    "date_iso": "2021-06-07",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/15138864/pexels-photo-15138864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "theartnewspaper.com",
+      "nonfungible.com",
+      "dacs.org.uk",
+      "theguardian.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the Whitney Biennial 2022 Forced a Real Conversation About Collective Power in American Art",
+    "slug": "whitney-biennial-2022-collective-power",
+    "meta_description": "The Whitney Biennial 2022 wasn't just an exhibition. It was a referendum on who gets to define American art and who funds it.",
+    "date": "May 29, 2022",
+    "date_iso": "2022-05-29",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/35870230/pexels-photo-35870230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "giarts.org",
+      "americansforthearts.org",
+      "nea.gov",
+      "artforum.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the Sudden Pivot to Virtual Art Fairs in 2020 Reshaped the Collectives Scene Forever",
+    "slug": "virtual-art-fairs-collectives-2020",
+    "meta_description": "A 2020 retrospective on how virtual art fairs and online collectives responded to COVID-19, and what it meant for the future of arts communities.",
+    "date": "March 05, 2020",
+    "date_iso": "2020-03-05",
+    "author": "Marcus Reid",
+    "image": "https://images.pexels.com/photos/2149422/pexels-photo-2149422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "theartnewspaper.com",
+      "americansforthearts.org",
+      "artnews.com",
+      "culturecase.org"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  }
+]
