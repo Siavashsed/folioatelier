@@ -98,5 +98,41 @@
       "en"
     ],
     "category": "Studio Practice"
+  },
+  {
+    "title": "Finance Tips That Actually Change Your Financial Life (Not Just Your Spreadsheet)",
+    "slug": "finance-tips-change-your-life",
+    "meta_description": "Practical finance tips from real experience - what works, what doesn't, and why most people stay broke despite good intentions.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Marcus Reid",
+    "image": "https://images.pexels.com/photos/6930597/pexels-photo-6930597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "apa.org",
+      "nber.org"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the Artist Relief Fund Became the Most Contested Lifeline of 2021",
+    "slug": "artist-relief-fund-2021-arts-collectives",
+    "meta_description": "The Artist Relief Fund reshaped how arts collectives access emergency support in 2021. Here's what it meant, who it helped, and why it still sparks debate.",
+    "date": "June 11, 2021",
+    "date_iso": "2021-06-11",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/20531496/pexels-photo-20531496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "americansforthearts.org",
+      "urban.org",
+      "giarts.org"
+    ],
+    "posted_iso": "2026-05-31",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
