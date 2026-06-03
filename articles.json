@@ -114,7 +114,8 @@
     "posted_iso": "2026-05-31",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Artists"
   },
   {
     "title": "How the Artist Relief Fund Became the Most Contested Lifeline of 2021",
@@ -133,6 +134,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Studio Practice"
   }
 ]
