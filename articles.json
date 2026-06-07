@@ -136,5 +136,43 @@
       "en"
     ],
     "category": "Studio Practice"
+  },
+  {
+    "title": "Finance Tips That Actually Stick: What Most Guides Won't Tell You",
+    "slug": "finance-tips-that-actually-stick",
+    "meta_description": "Real finance tips from direct experience-what works, what doesn't, and the one habit that changes everything. No fluff, no jargon.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/6693643/pexels-photo-6693643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "hbr.org",
+      "spglobal.com",
+      "fidelity.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the Forced Sale of Dia Art Foundation's Beacon Campus Shook the Collectives World in 2023",
+    "slug": "dia-art-foundation-2023-collectives-crisis",
+    "meta_description": "The Dia Art Foundation's 2023 financial crisis exposed deep fault lines in how arts institutions and collectives sustain themselves. Here's what it meant.",
+    "date": "October 09, 2023",
+    "date_iso": "2023-10-09",
+    "author": "Alex Merritt",
+    "image": "https://images.pexels.com/photos/34953969/pexels-photo-34953969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "artnews.com",
+      "giarts.org",
+      "culturalcommonsdata.org"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
