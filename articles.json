@@ -174,5 +174,25 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "When Art Collectives Walked Out of the Whitney in 2019",
+    "slug": "whitney-biennial-2019-protest-collectives",
+    "meta_description": "The 2019 Whitney Biennial protests reshaped how art collectives think about institutional power. Here's what actually happened and why it still matters.",
+    "date": "October 29, 2019",
+    "date_iso": "2019-10-29",
+    "author": "Jordan Cole",
+    "image": "https://images.pexels.com/photos/4705884/pexels-photo-4705884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nytimes.com",
+      "hyperallergic.com",
+      "giarts.org",
+      "nea.gov"
+    ],
+    "posted_iso": "2026-06-09",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
