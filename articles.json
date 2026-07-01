@@ -194,5 +194,44 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Finance Tips Most People Learn Too Late (And Too Expensively)",
+    "slug": "finance-tips-learn-too-late",
+    "meta_description": "Real finance tips from someone who made the costly mistakes first. No fluff, no generic advice - just what actually moves the needle.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5900185/pexels-photo-5900185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "hbr.org",
+      "spglobal.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Krabbesholm Collapse and What It Cost Arts Collectives in 2024",
+    "slug": "arts-collectives-funding-crisis-2024",
+    "meta_description": "The 2024 arts funding crisis hit collectives harder than anyone admitted. Here's what actually happened and why it changed how groups organize.",
+    "date": "August 09, 2024",
+    "date_iso": "2024-08-09",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/29240579/pexels-photo-29240579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "artscouncil.org.uk",
+      "arts.gov",
+      "opencollective.com",
+      "loomio.com",
+      "americansforthearts.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
