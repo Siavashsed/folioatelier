@@ -233,5 +233,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Money Rules Nobody Told Me Until I'd Wasted Three Years",
+    "slug": "money-rules-learned-slow-way",
+    "meta_description": "Practical finance tips from someone who learned them the slow way. Real numbers, honest trade-offs, and the advice that actually holds up.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5900189/pexels-photo-5900189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "vanguard.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "documenta Fifteen Handed a Collective the Keys. Then Kassel Caught Fire",
+    "slug": "documenta-fifteen-ruangrupa-lumbung-2022",
+    "meta_description": "documenta fifteen let the Indonesian collective ruangrupa run a 100-day show on shared resources. Then a banner turned it into a crisis. My report from Kassel.",
+    "date": "November 01, 2022",
+    "date_iso": "2022-11-01",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/35595102/pexels-photo-35595102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "theartnewspaper.com",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
