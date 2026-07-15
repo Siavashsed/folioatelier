@@ -268,5 +268,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The $400 Rule I Wish Someone Had Told Me About Money at 25",
+    "slug": "finance-tips-that-hold-up",
+    "meta_description": "Practical finance tips from years of trial and error: automation, the boring middle, and the small money habits that actually hold up over time.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5900225/pexels-photo-5900225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nber.org",
+      "federalreserve.gov",
+      "bls.gov"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
