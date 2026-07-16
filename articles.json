@@ -286,5 +286,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Budgeting Advice That Quietly Bankrupts Working Artists",
+    "slug": "finance-tips-irregular-artist-income",
+    "meta_description": "Standard finance tips assume a salary. Here is how artists and collective members actually manage irregular income, from someone who learned it late.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/36733372/pexels-photo-36733372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "irs.gov",
+      "bankrate.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
