@@ -304,5 +304,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Artists Don't Need a Budget. They Need a Floor.",
+    "slug": "artists-need-a-financial-floor",
+    "meta_description": "Practical finance tips for people with lumpy, unpredictable income, from a writer who spent years getting this wrong before getting it right.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/11044764/pexels-photo-11044764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "vanguard.com",
+      "spglobal.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Cara Hit 650,000 Users in a Week and Nearly Bankrupted Its Founder",
+    "slug": "cara-app-2024-artist-platform-exodus",
+    "meta_description": "In 2024 the artist-run platform Cara exploded from 40k to 650k users in seven days, and the server bill hit five figures. What it meant for arts collectives.",
+    "date": "April 23, 2024",
+    "date_iso": "2024-04-23",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/16021683/pexels-photo-16021683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "techcrunch.com",
+      "glaze.cs.uchicago.edu",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
