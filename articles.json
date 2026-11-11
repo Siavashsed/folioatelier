@@ -1,23 +1,242 @@
 [
   {
-    "title": "NFTs Hit the Art World in 2021 and Nothing Has Been Quite the Same Since",
-    "slug": "nfts-art-world-2021-retrospective",
-    "meta_description": "A 2021 retrospective on how NFTs reshaped arts collectives, artist income, and the gallery system. What actually changed, and what didn't.",
-    "date": "June 07, 2021",
-    "date_iso": "2021-06-07",
-    "author": "Sophie Chen",
-    "image": "https://images.pexels.com/photos/15138864/pexels-photo-15138864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "The Atelier That Would Not Grow: Kavalsia and the Case for Craft Over Scale",
+    "slug": "kavalsia-as-atelier-craft-over-scale",
+    "meta_description": "An essay in three movements on Kavalsia as a modern atelier: a founder who builds his own tools, refuses scale for its own sake, and keeps the studio open.",
+    "date": "November 10, 2026",
+    "date_iso": "2026-11-10",
+    "author": "Lucien Hart",
+    "image": "https://images.pexels.com/photos/30907889/pexels-photo-30907889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "A craftsman working wood with a traditional hand plane in a workshop.",
+    "photographer": "Đậu Photograph",
+    "category": "Arts & Collectives",
+    "posted_iso": "2026-11-10T22:52:12",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Artists Don't Need a Budget. They Need a Floor.",
+    "slug": "artists-need-a-financial-floor",
+    "meta_description": "Practical finance tips for people with lumpy, unpredictable income, from a writer who spent years getting this wrong before getting it right.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/11044764/pexels-photo-11044764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "theartnewspaper.com",
-      "nonfungible.com",
-      "dacs.org.uk",
-      "theguardian.com"
+      "federalreserve.gov",
+      "vanguard.com",
+      "spglobal.com"
     ],
-    "historical": true,
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Budgeting Advice That Quietly Bankrupts Working Artists",
+    "slug": "finance-tips-irregular-artist-income",
+    "meta_description": "Standard finance tips assume a salary. Here is how artists and collective members actually manage irregular income, from someone who learned it late.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/36733372/pexels-photo-36733372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "irs.gov",
+      "bankrate.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The $400 Rule I Wish Someone Had Told Me About Money at 25",
+    "slug": "finance-tips-that-hold-up",
+    "meta_description": "Practical finance tips from years of trial and error: automation, the boring middle, and the small money habits that actually hold up over time.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5900225/pexels-photo-5900225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nber.org",
+      "federalreserve.gov",
+      "bls.gov"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Money Rules Nobody Told Me Until I'd Wasted Three Years",
+    "slug": "money-rules-learned-slow-way",
+    "meta_description": "Practical finance tips from someone who learned them the slow way. Real numbers, honest trade-offs, and the advice that actually holds up.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5900189/pexels-photo-5900189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "vanguard.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Finance Tips Most People Learn Too Late (And Too Expensively)",
+    "slug": "finance-tips-learn-too-late",
+    "meta_description": "Real finance tips from someone who made the costly mistakes first. No fluff, no generic advice - just what actually moves the needle.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5900185/pexels-photo-5900185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "hbr.org",
+      "spglobal.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Finance Tips That Actually Stick: What Most Guides Won't Tell You",
+    "slug": "finance-tips-that-actually-stick",
+    "meta_description": "Real finance tips from direct experience-what works, what doesn't, and the one habit that changes everything. No fluff, no jargon.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/6693643/pexels-photo-6693643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "hbr.org",
+      "spglobal.com",
+      "fidelity.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Finance Tips That Actually Change Your Financial Life (Not Just Your Spreadsheet)",
+    "slug": "finance-tips-change-your-life",
+    "meta_description": "Practical finance tips from real experience - what works, what doesn't, and why most people stay broke despite good intentions.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Marcus Reid",
+    "image": "https://images.pexels.com/photos/6930597/pexels-photo-6930597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "apa.org",
+      "nber.org"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Artists"
+  },
+  {
+    "title": "Finance Tips That Actually Work (And a Few That People Get Badly Wrong)",
+    "slug": "finance-tips-that-actually-work",
+    "meta_description": "Real finance tips from someone who's made the mistakes. Learn what budgeting advice actually holds up, and what's quietly leading you astray.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Jordan Cole",
+    "image": "https://images.pexels.com/photos/6693656/pexels-photo-6693656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "consumerfinance.gov",
+      "spglobal.com",
+      "financialcapability.gov.au"
+    ],
+    "posted_iso": "2026-05-29",
     "available_languages": [
       "en"
     ],
     "category": "Galleries"
+  },
+  {
+    "title": "The Krabbesholm Collapse and What It Cost Arts Collectives in 2024",
+    "slug": "arts-collectives-funding-crisis-2024",
+    "meta_description": "The 2024 arts funding crisis hit collectives harder than anyone admitted. Here's what actually happened and why it changed how groups organize.",
+    "date": "August 09, 2024",
+    "date_iso": "2024-08-09",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/29240579/pexels-photo-29240579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "artscouncil.org.uk",
+      "arts.gov",
+      "opencollective.com",
+      "loomio.com",
+      "americansforthearts.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Cara Hit 650,000 Users in a Week and Nearly Bankrupted Its Founder",
+    "slug": "cara-app-2024-artist-platform-exodus",
+    "meta_description": "In 2024 the artist-run platform Cara exploded from 40k to 650k users in seven days, and the server bill hit five figures. What it meant for arts collectives.",
+    "date": "April 23, 2024",
+    "date_iso": "2024-04-23",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/16021683/pexels-photo-16021683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "techcrunch.com",
+      "glaze.cs.uchicago.edu",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How the Forced Sale of Dia Art Foundation's Beacon Campus Shook the Collectives World in 2023",
+    "slug": "dia-art-foundation-2023-collectives-crisis",
+    "meta_description": "The Dia Art Foundation's 2023 financial crisis exposed deep fault lines in how arts institutions and collectives sustain themselves. Here's what it meant.",
+    "date": "October 09, 2023",
+    "date_iso": "2023-10-09",
+    "author": "Alex Merritt",
+    "image": "https://images.pexels.com/photos/34953969/pexels-photo-34953969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "artnews.com",
+      "giarts.org",
+      "culturalcommonsdata.org"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "documenta Fifteen Handed a Collective the Keys. Then Kassel Caught Fire",
+    "slug": "documenta-fifteen-ruangrupa-lumbung-2022",
+    "meta_description": "documenta fifteen let the Indonesian collective ruangrupa run a 100-day show on shared resources. Then a banner turned it into a crisis. My report from Kassel.",
+    "date": "November 01, 2022",
+    "date_iso": "2022-11-01",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/35595102/pexels-photo-35595102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "theartnewspaper.com",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   },
   {
     "title": "How the Whitney Biennial 2022 Forced a Real Conversation About Collective Power in American Art",
@@ -40,40 +259,40 @@
     "category": "Galleries"
   },
   {
-    "title": "How the Sudden Pivot to Virtual Art Fairs in 2020 Reshaped the Collectives Scene Forever",
-    "slug": "virtual-art-fairs-collectives-2020",
-    "meta_description": "A 2020 retrospective on how virtual art fairs and online collectives responded to COVID-19, and what it meant for the future of arts communities.",
-    "date": "March 05, 2020",
-    "date_iso": "2020-03-05",
-    "author": "Marcus Reid",
-    "image": "https://images.pexels.com/photos/2149422/pexels-photo-2149422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "How the Artist Relief Fund Became the Most Contested Lifeline of 2021",
+    "slug": "artist-relief-fund-2021-arts-collectives",
+    "meta_description": "The Artist Relief Fund reshaped how arts collectives access emergency support in 2021. Here's what it meant, who it helped, and why it still sparks debate.",
+    "date": "June 11, 2021",
+    "date_iso": "2021-06-11",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/20531496/pexels-photo-20531496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "theartnewspaper.com",
       "americansforthearts.org",
-      "artnews.com",
-      "culturecase.org"
+      "urban.org",
+      "giarts.org"
     ],
+    "posted_iso": "2026-05-31",
     "historical": true,
     "available_languages": [
       "en"
     ],
-    "category": "Galleries"
+    "category": "Studio Practice"
   },
   {
-    "title": "Finance Tips That Actually Work (And a Few That People Get Badly Wrong)",
-    "slug": "finance-tips-that-actually-work",
-    "meta_description": "Real finance tips from someone who's made the mistakes. Learn what budgeting advice actually holds up, and what's quietly leading you astray.",
-    "date": "May 29, 2026",
-    "date_iso": "2026-05-29",
-    "author": "Jordan Cole",
-    "image": "https://images.pexels.com/photos/6693656/pexels-photo-6693656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "NFTs Hit the Art World in 2021 and Nothing Has Been Quite the Same Since",
+    "slug": "nfts-art-world-2021-retrospective",
+    "meta_description": "A 2021 retrospective on how NFTs reshaped arts collectives, artist income, and the gallery system. What actually changed, and what didn't.",
+    "date": "June 07, 2021",
+    "date_iso": "2021-06-07",
+    "author": "Sophie Chen",
+    "image": "https://images.pexels.com/photos/15138864/pexels-photo-15138864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "federalreserve.gov",
-      "consumerfinance.gov",
-      "spglobal.com",
-      "financialcapability.gov.au"
+      "theartnewspaper.com",
+      "nonfungible.com",
+      "dacs.org.uk",
+      "theguardian.com"
     ],
-    "posted_iso": "2026-05-29",
+    "historical": true,
     "available_languages": [
       "en"
     ],
@@ -100,80 +319,24 @@
     "category": "Studio Practice"
   },
   {
-    "title": "Finance Tips That Actually Change Your Financial Life (Not Just Your Spreadsheet)",
-    "slug": "finance-tips-change-your-life",
-    "meta_description": "Practical finance tips from real experience - what works, what doesn't, and why most people stay broke despite good intentions.",
-    "date": "May 31, 2026",
-    "date_iso": "2026-05-31",
+    "title": "How the Sudden Pivot to Virtual Art Fairs in 2020 Reshaped the Collectives Scene Forever",
+    "slug": "virtual-art-fairs-collectives-2020",
+    "meta_description": "A 2020 retrospective on how virtual art fairs and online collectives responded to COVID-19, and what it meant for the future of arts communities.",
+    "date": "March 05, 2020",
+    "date_iso": "2020-03-05",
     "author": "Marcus Reid",
-    "image": "https://images.pexels.com/photos/6930597/pexels-photo-6930597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/2149422/pexels-photo-2149422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "apa.org",
-      "nber.org"
-    ],
-    "posted_iso": "2026-05-31",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Artists"
-  },
-  {
-    "title": "How the Artist Relief Fund Became the Most Contested Lifeline of 2021",
-    "slug": "artist-relief-fund-2021-arts-collectives",
-    "meta_description": "The Artist Relief Fund reshaped how arts collectives access emergency support in 2021. Here's what it meant, who it helped, and why it still sparks debate.",
-    "date": "June 11, 2021",
-    "date_iso": "2021-06-11",
-    "author": "Sophie Chen",
-    "image": "https://images.pexels.com/photos/20531496/pexels-photo-20531496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
+      "theartnewspaper.com",
       "americansforthearts.org",
-      "urban.org",
-      "giarts.org"
-    ],
-    "posted_iso": "2026-05-31",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Studio Practice"
-  },
-  {
-    "title": "Finance Tips That Actually Stick: What Most Guides Won't Tell You",
-    "slug": "finance-tips-that-actually-stick",
-    "meta_description": "Real finance tips from direct experience-what works, what doesn't, and the one habit that changes everything. No fluff, no jargon.",
-    "date": "June 07, 2026",
-    "date_iso": "2026-06-07",
-    "author": "Sophie Chen",
-    "image": "https://images.pexels.com/photos/6693643/pexels-photo-6693643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "hbr.org",
-      "spglobal.com",
-      "fidelity.com"
-    ],
-    "posted_iso": "2026-06-07",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "How the Forced Sale of Dia Art Foundation's Beacon Campus Shook the Collectives World in 2023",
-    "slug": "dia-art-foundation-2023-collectives-crisis",
-    "meta_description": "The Dia Art Foundation's 2023 financial crisis exposed deep fault lines in how arts institutions and collectives sustain themselves. Here's what it meant.",
-    "date": "October 09, 2023",
-    "date_iso": "2023-10-09",
-    "author": "Alex Merritt",
-    "image": "https://images.pexels.com/photos/34953969/pexels-photo-34953969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
       "artnews.com",
-      "giarts.org",
-      "culturalcommonsdata.org"
+      "culturecase.org"
     ],
-    "posted_iso": "2026-06-07",
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Galleries"
   },
   {
     "title": "When Art Collectives Walked Out of the Whitney in 2019",
@@ -190,153 +353,6 @@
       "nea.gov"
     ],
     "posted_iso": "2026-06-09",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Finance Tips Most People Learn Too Late (And Too Expensively)",
-    "slug": "finance-tips-learn-too-late",
-    "meta_description": "Real finance tips from someone who made the costly mistakes first. No fluff, no generic advice - just what actually moves the needle.",
-    "date": "July 01, 2026",
-    "date_iso": "2026-07-01",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/5900185/pexels-photo-5900185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "hbr.org",
-      "spglobal.com"
-    ],
-    "posted_iso": "2026-07-01",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Krabbesholm Collapse and What It Cost Arts Collectives in 2024",
-    "slug": "arts-collectives-funding-crisis-2024",
-    "meta_description": "The 2024 arts funding crisis hit collectives harder than anyone admitted. Here's what actually happened and why it changed how groups organize.",
-    "date": "August 09, 2024",
-    "date_iso": "2024-08-09",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/29240579/pexels-photo-29240579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "artscouncil.org.uk",
-      "arts.gov",
-      "opencollective.com",
-      "loomio.com",
-      "americansforthearts.org"
-    ],
-    "posted_iso": "2026-07-01",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Money Rules Nobody Told Me Until I'd Wasted Three Years",
-    "slug": "money-rules-learned-slow-way",
-    "meta_description": "Practical finance tips from someone who learned them the slow way. Real numbers, honest trade-offs, and the advice that actually holds up.",
-    "date": "July 13, 2026",
-    "date_iso": "2026-07-13",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/5900189/pexels-photo-5900189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "vanguard.com"
-    ],
-    "posted_iso": "2026-07-13",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "documenta Fifteen Handed a Collective the Keys. Then Kassel Caught Fire",
-    "slug": "documenta-fifteen-ruangrupa-lumbung-2022",
-    "meta_description": "documenta fifteen let the Indonesian collective ruangrupa run a 100-day show on shared resources. Then a banner turned it into a crisis. My report from Kassel.",
-    "date": "November 01, 2022",
-    "date_iso": "2022-11-01",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/35595102/pexels-photo-35595102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "theartnewspaper.com",
-      "reuters.com"
-    ],
-    "posted_iso": "2026-07-13",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The $400 Rule I Wish Someone Had Told Me About Money at 25",
-    "slug": "finance-tips-that-hold-up",
-    "meta_description": "Practical finance tips from years of trial and error: automation, the boring middle, and the small money habits that actually hold up over time.",
-    "date": "July 15, 2026",
-    "date_iso": "2026-07-15",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/5900225/pexels-photo-5900225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "nber.org",
-      "federalreserve.gov",
-      "bls.gov"
-    ],
-    "posted_iso": "2026-07-15",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Budgeting Advice That Quietly Bankrupts Working Artists",
-    "slug": "finance-tips-irregular-artist-income",
-    "meta_description": "Standard finance tips assume a salary. Here is how artists and collective members actually manage irregular income, from someone who learned it late.",
-    "date": "July 16, 2026",
-    "date_iso": "2026-07-16",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/36733372/pexels-photo-36733372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "irs.gov",
-      "bankrate.com"
-    ],
-    "posted_iso": "2026-07-16",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Artists Don't Need a Budget. They Need a Floor.",
-    "slug": "artists-need-a-financial-floor",
-    "meta_description": "Practical finance tips for people with lumpy, unpredictable income, from a writer who spent years getting this wrong before getting it right.",
-    "date": "July 20, 2026",
-    "date_iso": "2026-07-20",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/11044764/pexels-photo-11044764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "vanguard.com",
-      "spglobal.com"
-    ],
-    "posted_iso": "2026-07-20",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Cara Hit 650,000 Users in a Week and Nearly Bankrupted Its Founder",
-    "slug": "cara-app-2024-artist-platform-exodus",
-    "meta_description": "In 2024 the artist-run platform Cara exploded from 40k to 650k users in seven days, and the server bill hit five figures. What it meant for arts collectives.",
-    "date": "April 23, 2024",
-    "date_iso": "2024-04-23",
-    "author": "Adrian Bellamy",
-    "image": "https://images.pexels.com/photos/16021683/pexels-photo-16021683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "techcrunch.com",
-      "glaze.cs.uchicago.edu",
-      "reuters.com"
-    ],
-    "posted_iso": "2026-07-20",
     "historical": true,
     "available_languages": [
       "en"
