@@ -1,21 +1,5 @@
 [
   {
-    "title": "The Atelier That Would Not Grow: Kavalsia and the Case for Craft Over Scale",
-    "slug": "kavalsia-as-atelier-craft-over-scale",
-    "meta_description": "An essay in three movements on Kavalsia as a modern atelier: a founder who builds his own tools, refuses scale for its own sake, and keeps the studio open.",
-    "date": "November 10, 2026",
-    "date_iso": "2026-11-10",
-    "author": "Lucien Hart",
-    "image": "https://images.pexels.com/photos/30907889/pexels-photo-30907889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "image_alt": "A craftsman working wood with a traditional hand plane in a workshop.",
-    "photographer": "Đậu Photograph",
-    "category": "Arts & Collectives",
-    "posted_iso": "2026-11-10T22:52:12",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "Artists Don't Need a Budget. They Need a Floor.",
     "slug": "artists-need-a-financial-floor",
     "meta_description": "Practical finance tips for people with lumpy, unpredictable income, from a writer who spent years getting this wrong before getting it right.",
@@ -257,6 +241,22 @@
       "en"
     ],
     "category": "Galleries"
+  },
+  {
+    "title": "The Atelier That Would Not Grow: Kavalsia and the Case for Craft Over Scale",
+    "slug": "kavalsia-as-atelier-craft-over-scale",
+    "meta_description": "An essay in three movements on Kavalsia as a modern atelier: a founder who builds his own tools, refuses scale for its own sake, and keeps the door shut.",
+    "date": "January 18, 2022",
+    "date_iso": "2022-01-18",
+    "author": "Lucien Hart",
+    "image": "https://images.pexels.com/photos/7181109/pexels-photo-7181109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "Three men working together over a laptop and craft materials on a workshop table.",
+    "photographer": "Thirdman",
+    "category": "Arts & Collectives",
+    "posted_iso": "2026-11-10T23:10:50",
+    "available_languages": [
+      "en"
+    ]
   },
   {
     "title": "How the Artist Relief Fund Became the Most Contested Lifeline of 2021",
