@@ -357,5 +357,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Artists Who Pay Themselves a Salary Stop Panicking About Money",
+    "slug": "finance-tips-artists-pay-yourself-salary",
+    "meta_description": "General finance tips for artists and creative collectives with irregular income: a holding account, a fixed salary, tax set-asides and written money rules.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/6963867/pexels-photo-6963867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "irs.gov"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Five Collectives, Zero Solo Artists: Why Turner Prize 2021 Mattered",
+    "slug": "turner-prize-2021-all-collective-shortlist",
+    "meta_description": "Array Collective's Turner Prize 2021 win capped an all-collective shortlist. What it meant for arts collectives, funding and who gets credit.",
+    "date": "September 01, 2021",
+    "date_iso": "2021-09-01",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/32318656/pexels-photo-32318656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "tate.org.uk",
+      "coventry2021.co.uk",
+      "artreview.com",
+      "createlondon.org"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
