@@ -394,5 +394,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Artists Who Get Paid in Lumps Need a Different Money System",
+    "slug": "finance-tips-artists-irregular-income",
+    "meta_description": "General finance tips for artists and collectives with irregular income: a flat salary, a tax account and a bigger buffer than standard advice suggests.",
+    "date": "November 16, 2026",
+    "date_iso": "2026-11-16",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/4621556/pexels-photo-4621556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "irs.gov",
+      "federalreserve.gov"
+    ],
+    "posted_iso": "2026-11-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
