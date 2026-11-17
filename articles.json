@@ -411,5 +411,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Most Finance Tips Assume a Paycheck. Artists Need Different Rules",
+    "slug": "finance-tips-for-irregular-income",
+    "meta_description": "Finance tips for artists and collectives with irregular income: pay yourself a fixed salary, wall off tax money, and fix shared accounts.",
+    "date": "November 17, 2026",
+    "date_iso": "2026-11-17",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/5682053/pexels-photo-5682053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "irs.gov"
+    ],
+    "posted_iso": "2026-11-17",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
