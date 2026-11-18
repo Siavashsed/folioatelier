@@ -428,5 +428,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Artists Don't Need a Budget. They Need a Lumpy-Income Plan",
+    "slug": "finance-tips-for-irregular-creative-income",
+    "meta_description": "General finance tips for artists and collectives on irregular income: a fake salary, a tax bucket and a bigger emergency fund that holds up.",
+    "date": "November 18, 2026",
+    "date_iso": "2026-11-18",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/40857972/pexels-photo-40857972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "arts.gov",
+      "irs.gov"
+    ],
+    "posted_iso": "2026-11-18",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
