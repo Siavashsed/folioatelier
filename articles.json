@@ -446,5 +446,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The $1,870 Tax Bill That Rewired How I Handle Money",
+    "slug": "finance-tips-irregular-income-artists",
+    "meta_description": "General finance tips for artists and collectives on irregular income: tax set-asides, month-based buffers, shared accounts and what to fund first.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/4959739/pexels-photo-4959739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "irs.gov",
+      "federalreserve.gov"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
