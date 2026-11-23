@@ -532,5 +532,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Savings Rate Matters Less Than Your Defaults",
+    "slug": "general-finance-tips-automate-defaults",
+    "meta_description": "General finance tips that work because they remove decisions. Automation, a cash buffer and one monthly money check beat willpower every time.",
+    "date": "November 23, 2026",
+    "date_iso": "2026-11-23",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/4430244/pexels-photo-4430244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "journals.uchicago.edu"
+    ],
+    "posted_iso": "2026-11-23",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
