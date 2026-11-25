@@ -566,5 +566,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Automate Your Money Before Willpower Gets a Vote",
+    "slug": "automate-money-before-willpower",
+    "meta_description": "The finance tip that beats every budget app: automate saving on payday. Real numbers, one failed attempt, and what to set up today.",
+    "date": "November 25, 2026",
+    "date_iso": "2026-11-25",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/35790727/pexels-photo-35790727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "journals.uchicago.edu"
+    ],
+    "posted_iso": "2026-11-25",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
