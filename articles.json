@@ -583,5 +583,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Finance Tips That Work Even When Your Income Doesn't Behave",
+    "slug": "finance-tips-irregular-income-creatives",
+    "meta_description": "General finance tips from someone who runs a creative collective: automate one transfer, build a real buffer, kill card debt first, and skip the apps.",
+    "date": "November 26, 2026",
+    "date_iso": "2026-11-26",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/6615292/pexels-photo-6615292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "journals.uchicago.edu"
+    ],
+    "posted_iso": "2026-11-26",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
