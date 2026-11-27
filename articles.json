@@ -600,5 +600,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Automate One Boring Transfer Before You Fix Anything Else",
+    "slug": "automate-one-transfer-finance-tips",
+    "meta_description": "The best general finance tips are boring ones you automate. Here's what worked for me as a freelancer and what the data says about saving.",
+    "date": "November 27, 2026",
+    "date_iso": "2026-11-27",
+    "author": "Adrian Bellamy",
+    "image": "https://images.pexels.com/photos/9618118/pexels-photo-9618118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "journals.uchicago.edu"
+    ],
+    "posted_iso": "2026-11-27",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
